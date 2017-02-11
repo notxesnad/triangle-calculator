@@ -1,0 +1,28 @@
+extends layout
+
+block body
+  #myCalculator(ng-controller='AppCtrl')
+      .title
+        | Find The Type of Triangle By Entering Three Numbers
+      form
+        div
+          h4 Side One
+          input(ng-change='calculate()', type='number', ng-model='side_a', value='{{ side_a }}')
+        div
+          h4 Side Two
+          input(ng-change='calculate()', type='number', ng-model='side_b', value='{{ side_b }}')
+        div
+          h4 Side Three
+          input(ng-change='calculate()', type='number', ng-model='side_c', value='{{ side_c }}')
+      main
+        section(class="{{ triangle.name }}", ng-repeat="triangle in triangles", ng-class="{'active':triangle.uniqueSides==numUniqueSides}")
+          div(class="{{ triangle.name }}")
+            h4 {{ triangle.name }}
+            p
+              | {{ triangle.uniqueSides }}
+        
+
+  script(src='js/lib/angular/angular.js')
+  script(src='js/app.js')
+  script(src='js/services.js')
+  script(src='js/controllers.js')

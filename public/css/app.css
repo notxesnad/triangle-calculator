@@ -1,0 +1,110 @@
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700|Open+Sans+Condensed:700);
+
+#myCalculator { margin: 0 auto; padding: 50px 0 0 0; font-size: 16px; font-family: 'Open Sans', sans-serif; font-weight: 300; line-height: 24px; max-width: 1000px; }
+
+#myCalculator .title {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+
+#myCalculator main { background-color: #444; }
+
+#myCalculator main section { 
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding-top: 110px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center 5px;
+  background-size: 90px 90px;
+}
+
+#myCalculator main:after { content:''; display: block; clear: both; }
+
+#myCalculator main section {
+  background-color: #dadada;
+}
+
+#myCalculator main section.active{
+  background-color:#3287c1;
+}
+
+#myCalculator main section.not {
+  background-image: url(/assets/images/not_triangle.svg);
+}
+
+#myCalculator main section.equilateral {
+  background-image: url(/assets/images/equilateral.svg);
+}
+
+#myCalculator main section.isoscelse {
+  background-image: url(/assets/images/iso.svg);
+}
+
+#myCalculator main section.scalene {
+  background-image: url(/assets/images/scalene.svg);
+}
+
+#myCalculator main section > div {
+  padding: 5px 0;
+  background-color: rgba(0,0,0,.15);
+}
+
+#myCalculator main h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+}
+
+
+#myCalculator form {
+  background-color: #424242;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#myCalculator form > div {
+  color: #fff;
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 10px 0 5px 0;
+}
+#myCalculator form::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#myCalculator form h4 {
+  color: #aaa;
+  margin: 0 0 -5px 0;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+
+#myCalculator form input[type=number] {
+  width: 120px;
+    height: 60px;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 15px;
+}
+
+
+#myCalculator form select::-ms-expand { display: none;}
+
+@media screen and (max-width: 500px) {
+  #myCalculator { font-size: 15px; padding:0; }
+  #myCalculator .title {font-size: 1em;}
+  #myCalculator main section { padding-top: 100px; width: 100%; float: none; }
+  #myCalculator main h4 { margin: 0; font-size: 1.5em; letter-spacing: 0; }
+  #myCalculator form h4 { font-size: 1.1em; margin: 0; }
+  #myCalculator form input[type="number"] { width: 60px; font-size: 1.5em; }
+}

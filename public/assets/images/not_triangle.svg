@@ -1,0 +1,28 @@
+<svg width="49.696" height="49.696" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_3"/>
+  <g id="svg_4"/>
+  <g id="svg_5"/>
+  <g id="svg_6"/>
+  <g id="svg_7"/>
+  <g id="svg_8"/>
+  <g id="svg_9"/>
+  <g id="svg_10"/>
+  <g id="svg_11"/>
+  <g id="svg_12"/>
+  <g id="svg_13"/>
+  <g id="svg_14"/>
+  <g id="svg_15"/>
+  <g id="svg_16"/>
+  <g id="svg_17"/>
+  <path id="svg_25" d="m23.660526,19.53561" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="NaN" stroke="#FFFFFF" fill="none"/>
+  <ellipse ry="19.249603" rx="19.249603" id="svg_26" cy="24.035517" cx="24.535508" fill-opacity="null" stroke-opacity="null" stroke-width="NaN" stroke="#FFFFFF" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_28" y2="37.285244" x2="38.285224" y1="10.785791" x1="11.285782" fill-opacity="null" stroke-opacity="null" stroke-width="NaN" stroke="#FFFFFF" fill="none"/>
+ </g>
+</svg>
