@@ -18,8 +18,7 @@ block body
         section(class="{{ triangle.name }}", ng-repeat="triangle in triangles", ng-class="{'active':triangle.uniqueSides==numUniqueSides}")
           div(class="{{ triangle.name }}")
             h4 {{ triangle.name }}
-            p
-              | {{ triangle.uniqueSides }}
+          
         
 
   script(src='js/lib/angular/angular.js')
