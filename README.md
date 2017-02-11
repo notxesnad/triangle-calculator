@@ -1,6 +1,6 @@
 # Triangle Calculator
 
-## How to use flexion_code_challenge
+## How to use Triangle Calculator
 
 Clone the flexion_code_challenge repository, run `npm install` to grab the dependencies, and start hacking!
 
