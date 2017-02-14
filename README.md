@@ -10,6 +10,6 @@ Runs like a typical express app:
 
     node app.js
 
-## Thanks to Brian Ford - Express Angural Seed
+## Thanks to Brian Ford - Express Angular Seed
 Skeleton app structure is a stripped down version of Brian Ford's Express Angular Seed
 https://github.com/btford/angular-express-seed
