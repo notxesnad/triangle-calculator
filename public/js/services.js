@@ -23,10 +23,10 @@ angular.module('myApp.services', [])
 
 
 	this.numUniqueSides = function (sidesArray) {
-		return sidesArray.filter(removeDuplicates).length;
+		return sidesArray.filter(findDuplicates).length;
 	}
 
-	function removeDuplicates ( item, index, inputArray ) {
+	function findDuplicates ( item, index, inputArray ) {
 		return inputArray.indexOf(item) == index;
 	}
 
